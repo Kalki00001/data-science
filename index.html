@@ -36,28 +36,157 @@
         .top-bar {
             background-color: var(--primary-color);
             color: #fff;
-            padding: 8px 0;
-            font-size: 0.8rem;
+            padding: 1rem 0;
+            font-size: 0.95rem;
         }
         .top-bar .container {
-            display: flex;
-            justify-content: space-between;
+            display: grid;
+            grid-template-columns: minmax(240px, 1fr) auto minmax(220px, 1fr);
             align-items: center;
             max-width: 1280px;
             margin: 0 auto;
             padding: 0 1rem;
+            gap: 1rem;
         }
-        .contact-info span, .kcet-codes span {
-            margin-right: 24px;
+        .contact-info {
+            display: flex;
+            align-items: center;
+            gap: 1.25rem;
+            justify-self: start;
+        }
+        .contact-info span,
+        .top-right-info span {
             display: inline-flex;
             align-items: center;
+            gap: 0.5rem;
+            white-space: nowrap;
         }
-        .contact-info i { margin-right: 5px; color: var(--secondary-color); }
-        
-        .university-brand { display: flex; align-items: center; }
-        .university-brand .logo { height: 50px; width: 50px; border-radius: 50%; margin-right: 10px; }
-        .brand-text h1 { font-size: 1.2rem; font-weight: 700; line-height: 1; margin: 0; color: #fff; }
-        .brand-text p { font-size: 0.7rem; font-weight: 300; margin: 0; color: #ccc; }
+        .contact-info i,
+        .top-right-info i {
+            color: var(--secondary-color);
+        }
+        .university-brand {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+            justify-self: center;
+            text-align: center;
+            min-width: 260px;
+        }
+        .university-brand .brand-text {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 0.15rem;
+        }
+        .brand-text h1 {
+            font-size: 1rem;
+            line-height: 1.1;
+            margin: 0;
+            color: #fff;
+            font-weight: 700;
+            letter-spacing: 0.01em;
+        }
+        .brand-text h2 {
+            font-size: 0.8rem;
+            margin: 0;
+            color: #f2f5ff;
+            font-weight: 500;
+            letter-spacing: 0.01em;
+        }
+        .top-right-info {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            justify-self: end;
+            min-width: 220px;
+        }
+
+        /* Testimonial / Video Stories Section */
+        .testimonial-section {
+            padding: 3rem 1rem;
+            background-color: #f4f7ff;
+        }
+        .testimonial-header {
+            max-width: 760px;
+            margin: 0 auto 1.75rem;
+            text-align: center;
+        }
+        .testimonial-title {
+            font-size: 1.65rem;
+            font-weight: 700;
+            color: #00458B;
+            margin-bottom: 0.65rem;
+        }
+        .testimonial-text {
+            font-size: 0.95rem;
+            color: #4b5563;
+            line-height: 1.7;
+            margin: 0 auto;
+            max-width: 620px;
+        }
+        .testimonial-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1.25rem;
+            max-width: 520px;
+            margin: 0 auto;
+        }
+        .video-card {
+            background: #fff;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 12px 28px rgba(15, 23, 42, 0.06);
+            transition: transform 0.25s ease, box-shadow 0.25s ease;
+        }
+        .video-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 16px 36px rgba(15, 23, 42, 0.1);
+        }
+        .video-frame {
+            position: relative;
+            width: 100%;
+            overflow: hidden;
+            background: #000;
+        }
+        .video-frame.vertical {
+            padding-top: 160%;
+        }
+        .video-frame iframe,
+        .video-frame video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+        .video-meta {
+            padding: 1rem 1.25rem 1.25rem;
+        }
+        .video-meta h3 {
+            margin: 0 0 0.5rem;
+            font-size: 1rem;
+            color: #111827;
+        }
+        .video-meta p {
+            margin: 0;
+            color: #475569;
+            line-height: 1.6;
+            font-size: 0.9rem;
+        }
+        @media (max-width: 900px) {
+            .testimonial-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .university-brand .logo { height: 58px; width: 58px; border-radius: 50%; margin-right: 10px; }
+        .brand-text h1 { font-size: 1.65rem; font-weight: 800; line-height: 1.1; margin: 0; color: #fff; }
+        .brand-text h2 { font-size: 1rem; margin: 0; color: #f2f5ff; font-weight: 500; }
+        .brand-text p { font-size: 0.75rem; font-weight: 300; margin: 0; color: #ccc; }
 
         .navbar {
             padding: 0;
@@ -590,8 +719,7 @@
         <header class="header">
             <div class="top-bar">
                 <div class="container">
-                    <div class="contact-info"
-                        style="display: flex; justify-content: center; align-items: center; gap: 30px; color: #ffcc00; font-size: 15px; margin-bottom: 10px;">
+                    <div class="contact-info" style="display: flex; justify-content: flex-start; align-items: center; gap: 1.25rem; color: #ffcc00; font-size: 0.95rem;">
                         <span style="display: flex; align-items: center; gap: 6px;">
                             <i class="fas fa-phone"></i> +91 8105093624
                         </span>
@@ -602,25 +730,14 @@
                     
                     <div class="university-brand">
                         <!-- Placeholder for logo, replace URL later -->
-                        <img src="static/images/college logo.jpg" onerror="this.onerror=null; this.src='https://placehold.co/40x40/00458B/ffffff?text=GMU'" alt="GM University Logo" class="logo"style="object-fit: cover;">
-                       <!-- <div class="brand-text">
-                            <h1>GM UNIVERSITY</h1>
-                            <p>Innovating Minds</p>
-                        </div> -->
-                        
-                        <div class="flex flex-col space-y-1">
-                            <!-- Highlighted Department Title -->
-                            <h1 class="text-2xl sm:text-3xl font-extrabold leading-tight" style="color:#eee; font-size: 35px;">
-                                Department of Data Science
-                            </h1>
-                            <!-- Highlighted Faculty Title -->
-                            <h2 text-align="center" class="text-lg sm:text-xl font-semibold text-white-600 leading-tight"style="font-size: 20px;">
-                                Faculty of Engineering and Technology
-                            </h2>
+                        <img src="static/images/college logo.jpg" onerror="this.onerror=null; this.src='https://placehold.co/50x50/00458B/ffffff?text=GMU'" alt="GM University Logo" class="logo" style="object-fit: cover; display: block;">
+                        <div class="brand-text">
+                            <h1>Department of Data Science and IOT with AI</h1>
+                            <h2>Faculty of Engineering and Technology</h2>
                         </div>
                     </div>
 
-                    <div style="flex: 1; text-align: right; padding-right: 40px;">
+                    <div class="top-right-info">
                         <span style="
                         font-size: 15px; 
                         font-weight: bold; 
@@ -773,6 +890,18 @@
                         <h3>🏆 Srishti Hackathon</h3>
                         <p>Proud to share that our team secured 2nd place out of 105 teams at the Srishti 36-Hour Hackathon hosted by Acharya Institute of Technology, Bangalore🏆.</p>
                     </div>
+
+                    <div class="achievement-card">
+                        <img src="static/images/cyberpeace-summit-2026.jpg" onerror="this.onerror=null; this.src='https://placehold.co/300x180/00458B/ffffff?text=CyberPeace+2026'" alt="CyberPeace Summit 2026">
+                        <h3>CyberPeace Summit 2026, IIT DELHI</h3>
+                        <p>Our teams secured 2nd Runner-Up at the e-Raksha Hackathon 2026.</p>
+                    </div>
+
+                    <div class="achievement-card">
+                        <img src="static/images/hackforhire-2026.jpg" onerror="this.onerror=null; this.src='https://placehold.co/300x180/00458B/ffffff?text=Hack+For+Hire+2026'" alt="Hack For Hire 2026">
+                        <h3>1st Prize - Hack For Hire 2026</h3>
+                        <p>Organized by Anvesana TBI at PES Campus, Shivamogga — Team Cronix (GM UNIVERSITY) built real startup solutions in 36 hours.</p>
+                    </div>
                     
                     <!-- Group 2 (Duplicate for smooth CSS loop) -->
                     <div class="achievement-card">
@@ -804,7 +933,39 @@
                         <h3>🏆 Srishti Hackathon (Copy)</h3>
                         <p>Proud to share that our team secured 2nd place out of 105 teams at the Srishti 36-Hour Hackathon hosted by Acharya Institute of Technology, Bangalore🏆.</p>
                     </div>
+
+                    <div class="achievement-card">
+                        <img src="static/images/cyberpeace-summit-2026.jpg" onerror="this.onerror=null; this.src='https://placehold.co/300x180/00458B/ffffff?text=CyberPeace+2026'" alt="CyberPeace Summit 2026">
+                        <h3>CyberPeace Summit 2026, IIT DELHI</h3>
+                        <p>Our teams secured 2nd Runner-Up at the e-Raksha Hackathon 2026.</p>
+                    </div>
+
+                    <div class="achievement-card">
+                        <img src="static/images/hackforhire-2026.jpg" onerror="this.onerror=null; this.src='https://placehold.co/300x180/00458B/ffffff?text=Hack+For+Hire+2026'" alt="Hack For Hire 2026">
+                        <h3>1st Prize - Hack For Hire 2026</h3>
+                        <p>Organized by Anvesana TBI at PES Campus, Shivamogga — Team Cronix (GM UNIVERSITY) built real startup solutions in 36 hours.</p>
+                    </div>
                 </div>
+            </div>
+        </section>
+
+        <!-- Testimonial / Video Stories -->
+        <section id="testimonials" class="testimonial-section">
+            <div class="testimonial-header">
+                <h2 class="testimonial-title">Student Stories & Video Testimonials</h2>
+                <p class="testimonial-text">Hear directly from our students and teams through short video stories. These videos highlight student success, campus life, and project achievements in an engaging format.</p>
+            </div>
+            <div class="testimonial-grid">
+                <article class="video-card">
+                    <div class="video-frame vertical" style="padding-top: 160%;">
+                        <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/reel/DWyiNF_kmI5/?igsh=d2N3cXN6enN2bm5w" data-instgrm-version="14" style="background:#fff; border:0; margin:0; max-width:540px; width:calc(100% - 2px); padding:0;">
+                        </blockquote>
+                    </div>
+                    <div class="video-meta">
+                        <h3>Instagram Reel - Hack For Hire 2026</h3>
+                        <p>Watch our Instagram reel from the event to see the moment our team secured first prize at Hack For Hire 2026.</p>
+                    </div>
+                </article>
             </div>
         </section>
 
@@ -865,7 +1026,7 @@
 
 <!-- Font Awesome for icons -->
 <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-
+<script async defer src="https://www.instagram.com/embed.js"></script>
 
         <!-- ================= GALLERY SECTION ================= -->
         <section id="gallery" class="gallery-section section bg-gray-50">
@@ -3110,9 +3271,6 @@
     }
   }
 </script>
-</body>
-</html>
-
 
     </div>
     
