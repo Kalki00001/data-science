@@ -4948,3 +4948,10 @@ i,
 .fa {
     color: #ffd700 !important;
 }
+/* Hover gold utility */
+.hover-gold {
+    transition: color 0.3s ease;
+}
+.hover-gold:hover {
+    color: #ffd700 !important;
+}
