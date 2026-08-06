@@ -5108,3 +5108,8 @@ i,
     color: #FFFFFF !important;
 }
 .gmu-inline-style-208 i { color: #FFFFFF !important; }
+
+/* Global override for ALL icons */
+i.fas, i.fab, i.far, i.fa, .fas, .fab, .far, .fa {
+    color: #ffb33a !important;
+}
