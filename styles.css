@@ -13,9 +13,9 @@ body {
 
 /* Variables and Core Styling */
 :root {
-    --primary-color: #5B1F1F;
+    --primary-color: #940000;
     /* Dark Blue - Princeton/Academic feel */
-    --secondary-color: #5B1F1F;
+    --secondary-color: #940000;
     /* Coral/Orange - Accent */
     --light-bg: #f8f8f8;
     --dark-text: #2c3e50;
@@ -126,7 +126,7 @@ body {
 .testimonial-title {
     font-size: 1.65rem;
     font-weight: 700;
-    color: #5B1F1F;
+    color: #940000;
     margin-bottom: 0.65rem;
 }
 
@@ -1491,7 +1491,7 @@ body.theme-premium .slide-overlay p {
 
 
 
-    background: #5B1F1F;
+    background: #940000;
     color: #FFFFFF;
     border-radius: 30px;
     box-shadow: none;
@@ -1503,8 +1503,8 @@ body.theme-premium .slide-overlay p {
 
     backdrop-filter: blur(12px);
     background: #FFFFFF;
-    color: #5B1F1F;
-    border: 2px solid #5B1F1F;
+    color: #940000;
+    border: 2px solid #940000;
 }
 
 .impact-strip {
@@ -1599,7 +1599,7 @@ body.theme-premium #recent-companies,
 body.theme-premium #team,
 body.theme-premium #contact,
 body.theme-premium footer,
-body.theme-premium header[style*="background: linear-gradient(135deg, #5B1F1F"] {
+body.theme-premium header[style*="background: linear-gradient(135deg, #940000"] {
     background:
         radial-gradient(circle at top right, rgba(212, 166, 70, 0.14), transparent 24%),
         linear-gradient(135deg, #2d0f0f 0%, #5c1f1f 55%, #7a2b2b 100%) !important;
@@ -1617,13 +1617,13 @@ body.theme-premium #walkthrough-video>div:first-of-type+div {
 }
 
 body.theme-premium #walkthrough-video a {
-    background: #5B1F1F !important;
+    background: #940000 !important;
     color: var(--theme-navy) !important;
     box-shadow: 0 10px 24px rgba(212, 166, 70, 0.32) !important;
 }
 
 body.theme-premium #walkthrough-video a:hover {
-    background: #5B1F1F !important;
+    background: #940000 !important;
 }
 
 body.theme-premium .video-card,
@@ -1660,54 +1660,54 @@ body.theme-premium .section-achievements {
     color: var(--theme-navy) !important;
 }
 
-body.theme-premium [style*="color: #5B1F1F"],
-body.theme-premium [style*="color:#5B1F1F"] {
+body.theme-premium [style*="color: #940000"],
+body.theme-premium [style*="color:#940000"] {
     color: var(--theme-navy) !important;
 }
 
 body.theme-premium [style*="background-color: #FFFFFF"],
-body.theme-premium [style*="background-color:#5B1F1F"] {
+body.theme-premium [style*="background-color:#940000"] {
     background-color: var(--theme-navy) !important;
 }
 
 body.theme-premium [style*="background-color: #FFFFFF"] h3,
-body.theme-premium [style*="background-color:#5B1F1F"] h3,
+body.theme-premium [style*="background-color:#940000"] h3,
 body.theme-premium [style*="background-color: #FFFFFF"] p,
-body.theme-premium [style*="background-color:#5B1F1F"] p,
+body.theme-premium [style*="background-color:#940000"] p,
 body.theme-premium [style*="background-color: #FFFFFF"] li,
-body.theme-premium [style*="background-color:#5B1F1F"] li,
+body.theme-premium [style*="background-color:#940000"] li,
 body.theme-premium [style*="background-color: #FFFFFF"] b,
-body.theme-premium [style*="background-color:#5B1F1F"] b,
+body.theme-premium [style*="background-color:#940000"] b,
 body.theme-premium [style*="background-color: #FFFFFF"] strong,
-body.theme-premium [style*="background-color:#5B1F1F"] strong {
+body.theme-premium [style*="background-color:#940000"] strong {
     color: var(--theme-ivory) !important;
 }
 
-body.theme-premium [style*="border-top: 6px solid #5B1F1F"],
-body.theme-premium [style*="border-top: 5px solid #5B1F1F"],
-body.theme-premium [style*="border-left: 5px solid #5B1F1F"],
-body.theme-premium [style*="border-left: 6px solid #5B1F1F"],
-body.theme-premium [style*="border-top:6px solid #5B1F1F"],
-body.theme-premium [style*="border-top:5px solid #5B1F1F"],
-body.theme-premium [style*="border-left:5px solid #5B1F1F"],
-body.theme-premium [style*="border-left:6px solid #5B1F1F"] {
-    border-color: #5B1F1F !important;
+body.theme-premium [style*="border-top: 6px solid #940000"],
+body.theme-premium [style*="border-top: 5px solid #940000"],
+body.theme-premium [style*="border-left: 5px solid #940000"],
+body.theme-premium [style*="border-left: 6px solid #940000"],
+body.theme-premium [style*="border-top:6px solid #940000"],
+body.theme-premium [style*="border-top:5px solid #940000"],
+body.theme-premium [style*="border-left:5px solid #940000"],
+body.theme-premium [style*="border-left:6px solid #940000"] {
+    border-color: #940000 !important;
 }
 
-body.theme-premium [style*="border: 4px solid #5B1F1F"],
-body.theme-premium [style*="border: 5px solid #5B1F1F"],
-body.theme-premium [style*="border: 3px solid #5B1F1F"],
-body.theme-premium [style*="border:4px solid #5B1F1F"],
-body.theme-premium [style*="border:5px solid #5B1F1F"],
-body.theme-premium [style*="border:3px solid #5B1F1F"] {
-    border-color: #5B1F1F !important;
+body.theme-premium [style*="border: 4px solid #940000"],
+body.theme-premium [style*="border: 5px solid #940000"],
+body.theme-premium [style*="border: 3px solid #940000"],
+body.theme-premium [style*="border:4px solid #940000"],
+body.theme-premium [style*="border:5px solid #940000"],
+body.theme-premium [style*="border:3px solid #940000"] {
+    border-color: #940000 !important;
 }
 
 
 
-body.theme-premium [style*="color: #5B1F1F"],
-body.theme-premium [style*="color:#5B1F1F"] {
-    color: #5B1F1F !important;
+body.theme-premium [style*="color: #940000"],
+body.theme-premium [style*="color:#940000"] {
+    color: #940000 !important;
 }
 
 body.theme-premium #contact .section-title,
@@ -1726,16 +1726,16 @@ body.theme-premium #contact .bg-gray-600 {
 
 body.theme-premium #contact input,
 body.theme-premium #contact textarea {
-    color: #5B1F1F;
+    color: #940000;
 }
 
 body.theme-premium #contact input::placeholder,
 body.theme-premium #contact textarea::placeholder {
-    color: #5B1F1F;
+    color: #940000;
 }
 
 body.theme-premium #contact button[type="submit"] {
-    background: #5B1F1F !important;
+    background: #940000 !important;
     color: var(--theme-navy) !important;
     font-weight: 800;
 }
@@ -1892,7 +1892,7 @@ body.theme-premium #chatbot-float>div:last-child {
 .gmu-inline-style-12 {
     font-size: 2.2rem;
     font-weight: 700;
-    color: #5B1F1F;
+    color: #940000;
     text-shadow: 0 3px 15px rgba(0, 0, 0, 0.4);
     margin-bottom: 12px;
 }
@@ -1916,7 +1916,7 @@ body.theme-premium #chatbot-float>div:last-child {
     font-size: 0.95rem;
 
     transition: all 0.3s ease;
-    background: #5B1F1F;
+    background: #940000;
     color: #FFFFFF !important;
     border-radius: 30px;
     box-shadow: none;
@@ -1946,7 +1946,7 @@ body.theme-premium #chatbot-float>div:last-child {
 .gmu-inline-style-18 {
     text-align: center;
     font-size: 2rem;
-    color: #5B1F1F;
+    color: #940000;
     font-weight: 700;
     margin-bottom: 40px;
     letter-spacing: 1px;
@@ -1970,7 +1970,7 @@ body.theme-premium #chatbot-float>div:last-child {
 
 .gmu-inline-style-21 {
     font-size: 45px;
-    color: #5B1F1F;
+    color: #940000;
     margin-bottom: 15px;
     transition: transform 0.3s ease;
 }
@@ -2005,7 +2005,7 @@ body.theme-premium #chatbot-float>div:last-child {
 .gmu-inline-style-25 {
     text-align: center;
     font-size: 45px;
-    color: #5B1F1F;
+    color: #940000;
     margin-bottom: 15px;
 }
 
@@ -2034,7 +2034,7 @@ body.theme-premium #chatbot-float>div:last-child {
     text-align: center;
     font-size: 2.3rem;
     font-weight: 700;
-    color: #5B1F1F;
+    color: #940000;
     margin-bottom: 10px;
 }
 
@@ -2055,7 +2055,7 @@ body.theme-premium #chatbot-float>div:last-child {
     border-radius: 20px;
     padding: 30px 25px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
-    border-top: 5px solid #5B1F1F;
+    border-top: 5px solid #940000;
     transition: all 0.3s ease;
     text-align: center;
 }
@@ -2067,7 +2067,7 @@ body.theme-premium #chatbot-float>div:last-child {
 }
 
 .gmu-inline-style-33 {
-    color: #5B1F1F;
+    color: #940000;
     font-weight: 700;
     font-size: 1.25rem;
     margin-bottom: 10px;
@@ -2080,14 +2080,14 @@ body.theme-premium #chatbot-float>div:last-child {
 }
 
 .gmu-inline-style-35 {
-    color: #5B1F1F;
+    color: #940000;
     font-weight: 600;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 .gmu-inline-style-35:hover {
-    color: #5B1F1F;
+    color: #940000;
 }
 
 .gmu-inline-style-36 {
@@ -2095,7 +2095,7 @@ body.theme-premium #chatbot-float>div:last-child {
     border-radius: 20px;
     padding: 30px 25px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
-    border-top: 5px solid #5B1F1F;
+    border-top: 5px solid #940000;
     transition: all 0.3s ease;
     text-align: center;
 }
@@ -2147,7 +2147,7 @@ body.theme-premium #chatbot-float>div:last-child {
 }
 
 .gmu-inline-style-43 {
-    color: #5B1F1F;
+    color: #940000;
     font-size: 36px;
     margin-right: 10px;
 }
@@ -2155,7 +2155,7 @@ body.theme-premium #chatbot-float>div:last-child {
 .gmu-inline-style-44 {
     font-size: 1.5rem;
     font-weight: 700;
-    color: #5B1F1F;
+    color: #940000;
 }
 
 .gmu-inline-style-45 {
@@ -2175,7 +2175,7 @@ body.theme-premium #chatbot-float>div:last-child {
 .gmu-inline-style-47 {
     display: inline-block;
     padding: 14px 36px;
-    background: #5B1F1F;
+    background: #940000;
     color: white;
     font-weight: 600;
     font-size: 1rem;
@@ -2210,7 +2210,7 @@ body.theme-premium #chatbot-float>div:last-child {
     background: #fff;
     border-radius: 15px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-    border-top: 6px solid #5B1F1F;
+    border-top: 6px solid #940000;
 }
 
 .gmu-inline-style-52 {
@@ -2231,7 +2231,7 @@ body.theme-premium #chatbot-float>div:last-child {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    background: #5B1F1F;
+    background: #940000;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -2253,7 +2253,7 @@ body.theme-premium #chatbot-float>div:last-child {
 .gmu-inline-style-56 {
     font-size: 1.2rem;
     font-weight: 700;
-    color: #5B1F1F;
+    color: #940000;
     margin-top: 15px;
 }
 
@@ -2270,12 +2270,12 @@ body.theme-premium #chatbot-float>div:last-child {
 .gmu-inline-style-59 {
     font-size: 2rem;
     font-weight: 700;
-    color: #5B1F1F;
+    color: #940000;
     margin-bottom: 20px;
 }
 
 .gmu-inline-style-60 {
-    border-left: 5px solid #5B1F1F;
+    border-left: 5px solid #940000;
     padding-left: 25px;
     color: #2c3e50;
     font-size: 1rem;
@@ -2290,14 +2290,14 @@ body.theme-premium #chatbot-float>div:last-child {
 .gmu-inline-style-62 {
     font-size: 1.2rem;
     font-weight: 700;
-    color: #5B1F1F;
+    color: #940000;
     margin-bottom: 5px;
 }
 
 .gmu-inline-style-63 {
     font-size: 1rem;
     font-weight: 500;
-    color: #5B1F1F;
+    color: #940000;
 }
 
 .gmu-inline-style-64 {
@@ -2329,20 +2329,20 @@ body.theme-premium #chatbot-float>div:last-child {
     border-radius: 18px;
     padding: 35px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-    border-top: 6px solid #5B1F1F;
+    border-top: 6px solid #940000;
     transition: all 0.4s ease;
 }
 
 .gmu-inline-style-69 {
     font-size: 50px;
-    color: #5B1F1F;
+    color: #940000;
     margin-bottom: 20px;
 }
 
 .gmu-inline-style-70 {
     font-size: 1.8rem;
     font-weight: 700;
-    color: #5B1F1F;
+    color: #940000;
     margin-bottom: 15px;
 }
 
@@ -2367,7 +2367,7 @@ body.theme-premium #chatbot-float>div:last-child {
 }
 
 .gmu-inline-style-74 {
-    background: #5B1F1F;
+    background: #940000;
     padding: 10px 25px;
     border-radius: 30px;
     color: #FFFFFF !important;
@@ -2380,7 +2380,7 @@ body.theme-premium #chatbot-float>div:last-child {
 .gmu-inline-style-75 {
     font-size: 2.3rem;
     font-weight: 700;
-    color: #5B1F1F;
+    color: #940000;
 }
 
 .gmu-inline-style-76 {
@@ -2393,7 +2393,7 @@ body.theme-premium #chatbot-float>div:last-child {
     background: #FFFFFF;
     border-radius: 20px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
-    border-top: 3px solid #5B1F1F;
+    border-top: 3px solid #940000;
     text-align: center;
     padding: 30px 20px;
     transition: all 0.3s ease;
@@ -2410,7 +2410,7 @@ body.theme-premium #chatbot-float>div:last-child {
     margin: auto;
     border-radius: 50%;
     background: transparent;
-    border: 3px solid #5B1F1F;
+    border: 3px solid #940000;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -2436,7 +2436,7 @@ body.theme-premium #chatbot-float>div:last-child {
     margin-top: 15px;
     font-size: 1.2rem;
     font-weight: 700;
-    color: #5B1F1F;
+    color: #940000;
 }
 
 .gmu-inline-style-81 {
@@ -2455,7 +2455,7 @@ body.theme-premium #chatbot-float>div:last-child {
     padding: 8px 20px;
 
     transition: all 0.3s;
-    background: #5B1F1F;
+    background: #940000;
     color: #FFFFFF !important;
     border-radius: 30px;
     box-shadow: none;
@@ -2465,7 +2465,7 @@ body.theme-premium #chatbot-float>div:last-child {
     background: #FFFFFF;
     border-radius: 20px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
-    border-top: 3px solid #5B1F1F;
+    border-top: 3px solid #940000;
     text-align: center;
     padding: 30px 20px;
     transition: all 0.3s ease;
@@ -2492,7 +2492,7 @@ body.theme-premium #chatbot-float>div:last-child {
 .gmu-inline-style-86 {
     font-size: 2.5rem;
     font-weight: 800;
-    color: #5B1F1F;
+    color: #940000;
     margin-bottom: 15px;
 }
 
@@ -2516,7 +2516,7 @@ body.theme-premium #chatbot-float>div:last-child {
     max-width: 420px;
     text-align: center;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
-    border-top: 6px solid #5B1F1F;
+    border-top: 6px solid #940000;
     transition: all 0.4s ease;
 }
 
@@ -2554,7 +2554,7 @@ body.theme-premium #chatbot-float>div:last-child {
 
 .gmu-inline-style-94 {
     display: inline-block;
-    background: #5B1F1F;
+    background: #940000;
     color: #FFFFFF !important;
     font-weight: 700;
     text-decoration: none;
@@ -2592,7 +2592,7 @@ body.theme-premium #chatbot-float>div:last-child {
 .gmu-inline-style-99 {
     font-size: 1.3rem;
     font-weight: 700;
-    color: #5B1F1F;
+    color: #940000;
 }
 
 .gmu-inline-style-100 {
@@ -2611,7 +2611,7 @@ body.theme-premium #chatbot-float>div:last-child {
 
     padding: 8px 18px;
     transition: all 0.3s;
-    background: #5B1F1F;
+    background: #940000;
     color: #FFFFFF !important;
     border-radius: 30px;
     box-shadow: none;
@@ -2639,7 +2639,7 @@ body.theme-premium #chatbot-float>div:last-child {
 .gmu-inline-style-105 {
     font-size: 1.3rem;
     font-weight: 700;
-    color: #5B1F1F;
+    color: #940000;
 }
 
 .gmu-inline-style-106 {
@@ -2665,7 +2665,7 @@ body.theme-premium #chatbot-float>div:last-child {
 
 .gmu-inline-style-109 {
     font-size: 2rem;
-    color: #5B1F1F;
+    color: #940000;
     margin-bottom: 10px;
 }
 
@@ -2679,7 +2679,7 @@ body.theme-premium #chatbot-float>div:last-child {
 .gmu-inline-style-111 {
     display: inline-block;
     margin-top: 12px;
-    background: #5B1F1F;
+    background: #940000;
     color: #FFFFFF !important;
     font-weight: 600;
     text-decoration: none;
@@ -2704,7 +2704,7 @@ body.theme-premium #chatbot-float>div:last-child {
 
 .gmu-inline-style-114 {
     font-size: 2rem;
-    color: #5B1F1F;
+    color: #940000;
     margin-bottom: 10px;
 }
 
@@ -2730,7 +2730,7 @@ body.theme-premium #chatbot-float>div:last-child {
     text-decoration: none;
 
     padding: 8px 16px;
-    background: #5B1F1F;
+    background: #940000;
     color: #FFFFFF !important;
     border-radius: 30px;
     box-shadow: none;
@@ -2750,7 +2750,7 @@ body.theme-premium #chatbot-float>div:last-child {
     padding: 25px 40px;
     border-radius: 15px;
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
-    border-left: 5px solid #5B1F1F;
+    border-left: 5px solid #940000;
     max-width: 700px;
     margin: 0 auto 60px auto;
     transition: all 0.3s;
@@ -2760,7 +2760,7 @@ body.theme-premium #chatbot-float>div:last-child {
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    border: 3px solid #5B1F1F;
+    border: 3px solid #940000;
     object-fit: cover;
     margin-right: 25px;
 }
@@ -2768,7 +2768,7 @@ body.theme-premium #chatbot-float>div:last-child {
 .gmu-inline-style-121 {
     font-size: 1.4rem;
     font-weight: 700;
-    color: #5B1F1F;
+    color: #940000;
     margin-bottom: 5px;
 }
 
@@ -2798,7 +2798,7 @@ body.theme-premium #chatbot-float>div:last-child {
 .gmu-inline-style-125 {
     font-size: 1.2rem;
     font-weight: 700;
-    color: #5B1F1F;
+    color: #940000;
 }
 
 .gmu-inline-style-126 {
@@ -2815,7 +2815,7 @@ body.theme-premium #chatbot-float>div:last-child {
     padding: 8px 18px;
 
     text-decoration: none;
-    background: #5B1F1F;
+    background: #940000;
     color: #FFFFFF !important;
     border-radius: 30px;
     box-shadow: none;
@@ -2827,7 +2827,7 @@ body.theme-premium #chatbot-float>div:last-child {
 }
 
 .gmu-inline-style-129 {
-    background: #5B1F1F;
+    background: #940000;
     color: #FFFFFF !important;
     font-weight: 700;
     font-size: 1rem;
@@ -2839,7 +2839,7 @@ body.theme-premium #chatbot-float>div:last-child {
 }
 
 .gmu-inline-style-130 {
-    background: linear-gradient(135deg, #5B1F1F 0%, #002B5B 100%);
+    background: linear-gradient(135deg, #940000 0%, #002B5B 100%);
     color: white;
     text-align: center;
     padding: 100px 20px;
@@ -2887,7 +2887,7 @@ body.theme-premium #chatbot-float>div:last-child {
     background: #fff;
     padding: 30px 40px;
     border-radius: 20px;
-    border-left: 5px solid #5B1F1F;
+    border-left: 5px solid #940000;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
     transition: all 0.3s;
 }
@@ -2896,7 +2896,7 @@ body.theme-premium #chatbot-float>div:last-child {
     width: 120px;
     height: 120px;
     border-radius: 50%;
-    border: 4px solid #5B1F1F;
+    border: 4px solid #940000;
     object-fit: cover;
 }
 
@@ -2914,7 +2914,7 @@ body.theme-premium #chatbot-float>div:last-child {
     text-align: center;
     font-size: 1.8rem;
     font-weight: 700;
-    color: #5B1F1F;
+    color: #940000;
     margin-bottom: 40px;
 }
 
@@ -2927,7 +2927,7 @@ body.theme-premium #chatbot-float>div:last-child {
 .gmu-inline-style-141 {
     background: #fff;
     border-radius: 15px;
-    border-top: 5px solid #5B1F1F;
+    border-top: 5px solid #940000;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
     padding: 25px;
     text-align: center;
@@ -2936,14 +2936,14 @@ body.theme-premium #chatbot-float>div:last-child {
 
 .gmu-inline-style-142 {
     font-size: 3rem;
-    color: #5B1F1F;
+    color: #940000;
     margin-bottom: 15px;
 }
 
 .gmu-inline-style-143 {
     background: #fff;
     border-radius: 15px;
-    border-top: 5px solid #5B1F1F;
+    border-top: 5px solid #940000;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
     padding: 25px;
     text-align: center;
@@ -2953,7 +2953,7 @@ body.theme-premium #chatbot-float>div:last-child {
 .gmu-inline-style-144 {
     background: #fff;
     border-radius: 15px;
-    border-top: 5px solid #5B1F1F;
+    border-top: 5px solid #940000;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
     padding: 25px;
     text-align: center;
@@ -2981,7 +2981,7 @@ body.theme-premium #chatbot-float>div:last-child {
 .gmu-inline-style-148 {
     font-size: 1.1rem;
     font-weight: 700;
-    color: #5B1F1F;
+    color: #940000;
 }
 
 .gmu-inline-style-149 {
@@ -3003,7 +3003,7 @@ body.theme-premium #chatbot-float>div:last-child {
 .gmu-inline-style-152 {
     background: #fff;
     border-radius: 20px;
-    border-top: 6px solid #5B1F1F;
+    border-top: 6px solid #940000;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
     transition: all 0.4s ease;
     overflow: hidden;
@@ -3013,7 +3013,7 @@ body.theme-premium #chatbot-float>div:last-child {
     width: 100%;
     height: 250px;
     object-fit: cover;
-    border-bottom: 4px solid #5B1F1F;
+    border-bottom: 4px solid #940000;
 }
 
 .gmu-inline-style-154 {
@@ -3023,7 +3023,7 @@ body.theme-premium #chatbot-float>div:last-child {
 .gmu-inline-style-155 {
     font-size: 1.4rem;
     font-weight: 700;
-    color: #5B1F1F;
+    color: #940000;
     margin-bottom: 10px;
 }
 
@@ -3037,7 +3037,7 @@ body.theme-premium #chatbot-float>div:last-child {
 .gmu-inline-style-157 {
     font-size: 0.9rem;
     font-weight: 600;
-    color: #5B1F1F;
+    color: #940000;
 }
 
 .gmu-inline-style-158 {
@@ -3052,7 +3052,7 @@ body.theme-premium #chatbot-float>div:last-child {
 
     text-decoration: none;
 
-    background: #5B1F1F;
+    background: #940000;
     color: #FFFFFF !important;
     border-radius: 30px;
     box-shadow: none;
@@ -3061,7 +3061,7 @@ body.theme-premium #chatbot-float>div:last-child {
 .gmu-inline-style-160 {
     background: #fff;
     border-radius: 20px;
-    border-top: 6px solid #5B1F1F;
+    border-top: 6px solid #940000;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
     transition: all 0.4s ease;
     overflow: hidden;
@@ -3070,7 +3070,7 @@ body.theme-premium #chatbot-float>div:last-child {
 .gmu-inline-style-161 {
     font-size: 1.4rem;
     font-weight: 700;
-    color: #5B1F1F;
+    color: #940000;
     margin-bottom: 10px;
 }
 
@@ -3088,7 +3088,7 @@ body.theme-premium #chatbot-float>div:last-child {
     text-decoration: none;
 
     transition: all 0.3s;
-    background: #5B1F1F;
+    background: #940000;
     color: #FFFFFF !important;
     border-radius: 30px;
     box-shadow: none;
@@ -3110,7 +3110,7 @@ body.theme-premium #chatbot-float>div:last-child {
     padding: 25px 30px;
     border-radius: 18px;
     box-shadow: 0 6px 25px rgba(0, 0, 0, 0.08);
-    border-left: 5px solid #5B1F1F;
+    border-left: 5px solid #940000;
     transition: all 0.3s ease;
 }
 
@@ -3119,13 +3119,13 @@ body.theme-premium #chatbot-float>div:last-child {
     height: 110px;
     border-radius: 50%;
     object-fit: cover;
-    border: 4px solid #5B1F1F;
+    border: 4px solid #940000;
 }
 
 .gmu-inline-style-167 {
     font-size: 1rem;
     font-weight: 600;
-    color: #5B1F1F;
+    color: #940000;
 }
 
 .gmu-inline-style-168 {
@@ -3137,7 +3137,7 @@ body.theme-premium #chatbot-float>div:last-child {
 .gmu-inline-style-169 {
     background: #fff;
     border-radius: 20px;
-    border-top: 6px solid #5B1F1F;
+    border-top: 6px solid #940000;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
     padding: 30px;
     text-align: center;
@@ -3147,7 +3147,7 @@ body.theme-premium #chatbot-float>div:last-child {
 .gmu-inline-style-170 {
     font-size: 1.6rem;
     font-weight: 700;
-    color: #5B1F1F;
+    color: #940000;
     margin-bottom: 20px;
 }
 
@@ -3166,13 +3166,13 @@ body.theme-premium #chatbot-float>div:last-child {
 }
 
 .gmu-inline-style-173 {
-    color: #5B1F1F;
+    color: #940000;
     margin-right: 10px;
 }
 
 .gmu-inline-style-174 {
     display: inline-block;
-    background: #5B1F1F;
+    background: #940000;
     color: #FFFFFF !important;
     font-weight: 700;
     padding: 10px 24px;
@@ -3184,7 +3184,7 @@ body.theme-premium #chatbot-float>div:last-child {
 
 .gmu-inline-style-175 {
     padding: 100px 0;
-    background: linear-gradient(135deg, #001f3f 0%, #5B1F1F 100%);
+    background: linear-gradient(135deg, #001f3f 0%, #940000 100%);
     font-family: 'Poppins', sans-serif;
     color: white;
     position: relative;
@@ -3263,11 +3263,11 @@ body.theme-premium #chatbot-float>div:last-child {
     align-items: center;
     gap: 30px;
     background: white;
-    color: #5B1F1F;
+    color: #940000;
     padding: 35px 45px;
     border-radius: 20px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
-    border-left: 6px solid #5B1F1F;
+    border-left: 6px solid #940000;
     transition: all 0.3s ease;
 }
 
@@ -3283,17 +3283,17 @@ body.theme-premium #chatbot-float>div:last-child {
 
 .gmu-inline-style-187 {
     margin-right: 8px;
-    color: #5B1F1F;
+    color: #940000;
 }
 
 .gmu-inline-style-188 {
-    color: #5B1F1F;
+    color: #940000;
     text-decoration: none;
 }
 
 .gmu-inline-style-189 {
     padding: 80px 0;
-    background: linear-gradient(135deg, #001f3f 0%, #5B1F1F 100%);
+    background: linear-gradient(135deg, #001f3f 0%, #940000 100%);
     font-family: 'Poppins', sans-serif;
     color: white;
     position: relative;
@@ -3383,7 +3383,7 @@ body.theme-premium #chatbot-float>div:last-child {
 }
 
 .gmu-inline-style-200 {
-    background: #5B1F1F;
+    background: #940000;
     color: #FFFFFF !important;
     font-weight: 700;
     padding: 12px 28px;
@@ -3402,7 +3402,7 @@ body.theme-premium #chatbot-float>div:last-child {
 .gmu-inline-style-202 {
     font-size: 2.5rem;
     font-weight: 800;
-    color: #5B1F1F;
+    color: #940000;
     margin-bottom: 10px;
 }
 
@@ -3414,7 +3414,7 @@ body.theme-premium #chatbot-float>div:last-child {
 .gmu-inline-style-204 {
     width: 80px;
     height: 4px;
-    background: #5B1F1F;
+    background: #940000;
     border-radius: 10px;
     margin: 20px auto;
 }
@@ -3429,7 +3429,7 @@ body.theme-premium #chatbot-float>div:last-child {
     background: white;
     border-radius: 20px;
     padding: 40px;
-    border-top: 6px solid #5B1F1F;
+    border-top: 6px solid #940000;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
     transition: all 0.4s ease;
 }
@@ -3444,7 +3444,7 @@ body.theme-premium #chatbot-float>div:last-child {
 .gmu-inline-style-208 {
     width: 60px;
     height: 60px;
-    background: #5B1F1F;
+    background: #940000;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -3452,14 +3452,14 @@ body.theme-premium #chatbot-float>div:last-child {
 }
 
 .gmu-inline-style-209 {
-    color: #5B1F1F;
+    color: #940000;
     font-size: 1.5rem;
 }
 
 .gmu-inline-style-210 {
     font-size: 1.6rem;
     font-weight: 700;
-    color: #5B1F1F;
+    color: #940000;
 }
 
 .gmu-inline-style-211 {
@@ -3468,7 +3468,7 @@ body.theme-premium #chatbot-float>div:last-child {
 }
 
 .gmu-inline-style-212 {
-    color: #5B1F1F;
+    color: #940000;
 }
 
 .gmu-inline-style-213 {
@@ -3495,7 +3495,7 @@ body.theme-premium #chatbot-float>div:last-child {
 }
 
 .gmu-inline-style-217 {
-    background: #5B1F1F;
+    background: #940000;
     color: #FFFFFF !important;
     font-weight: 600;
     text-decoration: none;
@@ -3509,7 +3509,7 @@ body.theme-premium #chatbot-float>div:last-child {
     background: white;
     border-radius: 20px;
     padding: 40px;
-    border-top: 6px solid #5B1F1F;
+    border-top: 6px solid #940000;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
     transition: all 0.4s ease;
 }
@@ -3517,7 +3517,7 @@ body.theme-premium #chatbot-float>div:last-child {
 .gmu-inline-style-219 {
     width: 60px;
     height: 60px;
-    background: #5B1F1F;
+    background: #940000;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -3532,11 +3532,11 @@ body.theme-premium #chatbot-float>div:last-child {
 .gmu-inline-style-221 {
     font-size: 1.6rem;
     font-weight: 700;
-    color: #5B1F1F;
+    color: #940000;
 }
 
 .gmu-inline-style-222 {
-    color: #5B1F1F;
+    color: #940000;
 }
 
 .gmu-inline-style-223 {
@@ -3561,7 +3561,7 @@ body.theme-premium #chatbot-float>div:last-child {
 .gmu-inline-style-226 {
     font-size: 2.5rem;
     font-weight: 800;
-    color: #5B1F1F;
+    color: #940000;
 }
 
 .gmu-inline-style-227 {
@@ -3583,7 +3583,7 @@ body.theme-premium #chatbot-float>div:last-child {
     background: white;
     padding: 25px 35px;
     border-radius: 15px;
-    border-top: 6px solid #5B1F1F;
+    border-top: 6px solid #940000;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
     transition: all 0.4s ease;
     width: 360px;
@@ -3593,18 +3593,18 @@ body.theme-premium #chatbot-float>div:last-child {
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    border: 4px solid #5B1F1F;
+    border: 4px solid #940000;
     object-fit: cover;
     margin-right: 20px;
 }
 
 .gmu-inline-style-231 {
-    color: #5B1F1F;
+    color: #940000;
     font-weight: 600;
 }
 
 .gmu-inline-style-232 {
-    background: #5B1F1F;
+    background: #940000;
     color: #FFFFFF !important;
     font-weight: 700;
     padding: 12px 35px;
@@ -3645,7 +3645,7 @@ body.theme-premium #chatbot-float>div:last-child {
     text-align: center;
     padding: 40px 30px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
-    border-top: 6px solid #5B1F1F;
+    border-top: 6px solid #940000;
     transition: all 0.4s ease;
 }
 
@@ -3659,19 +3659,19 @@ body.theme-premium #chatbot-float>div:last-child {
     height: 120px;
     border-radius: 50%;
     object-fit: cover;
-    border: 5px solid #5B1F1F;
+    border: 5px solid #940000;
     box-shadow: 0 5px 15px rgba(255, 215, 0, 0.4);
 }
 
 .gmu-inline-style-240 {
     font-size: 1.4rem;
     font-weight: 700;
-    color: #5B1F1F;
+    color: #940000;
     margin-top: 15px;
 }
 
 .gmu-inline-style-241 {
-    color: #5B1F1F;
+    color: #940000;
     font-weight: 600;
 }
 
@@ -3694,7 +3694,7 @@ body.theme-premium #chatbot-float>div:last-child {
     text-align: center;
     padding: 40px 30px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
-    border-top: 6px solid #5B1F1F;
+    border-top: 6px solid #940000;
     transition: all 0.4s ease;
 }
 
@@ -3703,7 +3703,7 @@ body.theme-premium #chatbot-float>div:last-child {
     height: 120px;
     border-radius: 50%;
     object-fit: cover;
-    border: 5px solid #5B1F1F;
+    border: 5px solid #940000;
     box-shadow: 0 5px 15px rgba(34, 197, 94, 0.4);
 }
 
@@ -3713,7 +3713,7 @@ body.theme-premium #chatbot-float>div:last-child {
     text-align: center;
     padding: 40px 30px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
-    border-top: 6px solid #5B1F1F;
+    border-top: 6px solid #940000;
     transition: all 0.4s ease;
 }
 
@@ -3722,7 +3722,7 @@ body.theme-premium #chatbot-float>div:last-child {
     height: 120px;
     border-radius: 50%;
     object-fit: cover;
-    border: 5px solid #5B1F1F;
+    border: 5px solid #940000;
     box-shadow: 0 5px 15px rgba(239, 68, 68, 0.4);
 }
 
@@ -3755,7 +3755,7 @@ body.theme-premium #chatbot-float>div:last-child {
 }
 
 .gmu-inline-style-251 {
-    background: #5B1F1F;
+    background: #940000;
     color: white;
     padding: 12px 16px;
     display: flex;
@@ -3839,7 +3839,7 @@ body.theme-premium #chatbot-float>div:last-child {
     border-radius: 20px;
     padding: 6px 12px;
     cursor: pointer;
-    background: #5B1F1F;
+    background: #940000;
     color: #FFFFFF !important;
 }
 
@@ -3866,7 +3866,7 @@ body.theme-premium #chatbot-float>div:last-child {
     border-radius: 8px;
     cursor: pointer;
     font-size: 1rem;
-    background: #5B1F1F;
+    background: #940000;
     color: #FFFFFF !important;
 }
 
@@ -3930,7 +3930,7 @@ body.theme-premium #chatbot-float>div:last-child {
     justify-content: center;
     transition: all 0.3s ease;
     z-index: 999;
-    background: #5B1F1F;
+    background: #940000;
     color: #FFFFFF !important;
 }
 
@@ -3942,7 +3942,7 @@ body.theme-premium #chatbot-float>div:last-child {
 }
 
 .iot-hover-style-1000:hover {
-    background: #5B1F1F;
+    background: #940000;
     transform: scale(1.08);
 }
 
@@ -4091,12 +4091,12 @@ body.theme-premium #chatbot-float>div:last-child {
 
 .iot-hover-style-1014 {
     transition: all 0.3s ease;
-    background: #5B1F1F;
+    background: #940000;
     transform: scale(1);
 }
 
 .iot-hover-style-1014:hover {
-    background: #5B1F1F;
+    background: #940000;
     transform: scale(1.05);
 }
 
@@ -4116,7 +4116,7 @@ body.theme-premium #chatbot-float>div:last-child {
 }
 
 .iot-hover-style-1016:hover {
-    box-shadow: 0 0 30px #5B1F1F, 0 0 60px rgba(255, 215, 0, 0.5);
+    box-shadow: 0 0 30px #940000, 0 0 60px rgba(255, 215, 0, 0.5);
     transform: scale(1.05);
 }
 
@@ -4168,7 +4168,7 @@ body.theme-premium #chatbot-float>div:last-child {
 }
 
 .iot-hover-style-1021:hover {
-    box-shadow: 0 0 25px #5B1F1F, 0 0 50px rgba(255, 215, 0, 0.5);
+    box-shadow: 0 0 25px #940000, 0 0 50px rgba(255, 215, 0, 0.5);
 }
 
 .iot-hover-style-1022 {
@@ -4199,7 +4199,7 @@ body.theme-premium #chatbot-float>div:last-child {
 }
 
 .iot-hover-style-1024:hover {
-    box-shadow: 0 0 25px #5B1F1F, 0 0 50px rgba(255, 215, 0, 0.5);
+    box-shadow: 0 0 25px #940000, 0 0 50px rgba(255, 215, 0, 0.5);
 }
 
 .iot-hover-style-1025 {
@@ -4230,7 +4230,7 @@ body.theme-premium #chatbot-float>div:last-child {
 }
 
 .iot-hover-style-1027:hover {
-    box-shadow: 0 0 25px #5B1F1F, 0 0 50px rgba(255, 215, 0, 0.5);
+    box-shadow: 0 0 25px #940000, 0 0 50px rgba(255, 215, 0, 0.5);
 }
 
 .iot-hover-style-1028 {
@@ -4261,7 +4261,7 @@ body.theme-premium #chatbot-float>div:last-child {
 }
 
 .iot-hover-style-1030:hover {
-    box-shadow: 0 0 25px #5B1F1F, 0 0 50px rgba(255, 215, 0, 0.5);
+    box-shadow: 0 0 25px #940000, 0 0 50px rgba(255, 215, 0, 0.5);
 }
 
 .iot-hover-style-1031 {
@@ -4292,7 +4292,7 @@ body.theme-premium #chatbot-float>div:last-child {
 }
 
 .iot-hover-style-1033:hover {
-    box-shadow: 0 0 25px #5B1F1F, 0 0 50px rgba(255, 215, 0, 0.5);
+    box-shadow: 0 0 25px #940000, 0 0 50px rgba(255, 215, 0, 0.5);
 }
 
 .iot-hover-style-1034 {
@@ -4323,7 +4323,7 @@ body.theme-premium #chatbot-float>div:last-child {
 }
 
 .iot-hover-style-1036:hover {
-    box-shadow: 0 0 25px #5B1F1F, 0 0 50px rgba(255, 215, 0, 0.5);
+    box-shadow: 0 0 25px #940000, 0 0 50px rgba(255, 215, 0, 0.5);
 }
 
 .iot-hover-style-1037 {
@@ -4354,7 +4354,7 @@ body.theme-premium #chatbot-float>div:last-child {
 }
 
 .iot-hover-style-1039:hover {
-    box-shadow: 0 0 25px #5B1F1F, 0 0 50px rgba(255, 215, 0, 0.5);
+    box-shadow: 0 0 25px #940000, 0 0 50px rgba(255, 215, 0, 0.5);
 }
 
 .iot-hover-style-1040 {
@@ -4385,7 +4385,7 @@ body.theme-premium #chatbot-float>div:last-child {
 }
 
 .iot-hover-style-1042:hover {
-    box-shadow: 0 0 25px #5B1F1F, 0 0 50px rgba(255, 215, 0, 0.5);
+    box-shadow: 0 0 25px #940000, 0 0 50px rgba(255, 215, 0, 0.5);
 }
 
 .iot-hover-style-1043 {
@@ -4416,7 +4416,7 @@ body.theme-premium #chatbot-float>div:last-child {
 }
 
 .iot-hover-style-1045:hover {
-    box-shadow: 0 0 25px #5B1F1F, 0 0 50px rgba(255, 215, 0, 0.5);
+    box-shadow: 0 0 25px #940000, 0 0 50px rgba(255, 215, 0, 0.5);
 }
 
 .iot-hover-style-1046 {
@@ -4447,7 +4447,7 @@ body.theme-premium #chatbot-float>div:last-child {
 }
 
 .iot-hover-style-1048:hover {
-    box-shadow: 0 0 25px #5B1F1F, 0 0 50px rgba(255, 215, 0, 0.5);
+    box-shadow: 0 0 25px #940000, 0 0 50px rgba(255, 215, 0, 0.5);
 }
 
 .iot-hover-style-1049 {
@@ -4478,7 +4478,7 @@ body.theme-premium #chatbot-float>div:last-child {
 }
 
 .iot-hover-style-1051:hover {
-    box-shadow: 0 0 25px #5B1F1F, 0 0 50px rgba(255, 215, 0, 0.5);
+    box-shadow: 0 0 25px #940000, 0 0 50px rgba(255, 215, 0, 0.5);
 }
 
 .iot-hover-style-1052 {
@@ -4509,7 +4509,7 @@ body.theme-premium #chatbot-float>div:last-child {
 }
 
 .iot-hover-style-1054:hover {
-    box-shadow: 0 0 25px #5B1F1F, 0 0 50px rgba(255, 215, 0, 0.5);
+    box-shadow: 0 0 25px #940000, 0 0 50px rgba(255, 215, 0, 0.5);
 }
 
 .iot-hover-style-1055 {
@@ -4540,7 +4540,7 @@ body.theme-premium #chatbot-float>div:last-child {
 }
 
 .iot-hover-style-1057:hover {
-    background: #5B1F1F;
+    background: #940000;
     transform: scale(1.05);
 }
 
@@ -4935,7 +4935,7 @@ body.theme-premium #chatbot-float>div:last-child {
 }
 
 .iot-hover-style-1093:hover {
-    background: #5B1F1F;
+    background: #940000;
     transform: scale(1.05);
 }
 
@@ -4967,7 +4967,7 @@ body.theme-premium #chatbot-float>div:last-child {
 }
 
 .iot-hover-style-1096:hover {
-    background: #5B1F1F;
+    background: #940000;
     transform: scale(1.05);
 }
 
@@ -5005,7 +5005,7 @@ body.theme-premium #chatbot-float>div:last-child {
 }
 
 .Icon {
-    color: #5B1F1F;
+    color: #940000;
 }
 
 /* Global icon color update */
@@ -5014,7 +5014,7 @@ i,
 .far,
 .fab,
 .fa {
-    color: #5B1F1F;
+    color: #940000;
 }
 
 /* Hover gold utility */
@@ -5023,70 +5023,70 @@ i,
 }
 
 .hover-gold:hover {
-    color: #5B1F1F !important;
+    color: #940000 !important;
 }
 
 .hero-btn-primary:hover {
-    background: #5B1F1F;
+    background: #940000;
     color: #FFFFFF;
     transform: translateY(-3px) scale(1.02);
-    box-shadow: 0 12px 30px rgba(91, 31, 31, 0.25);
+    box-shadow: 0 12px 30px rgba(148, 0, 0, 0.25);
 }
 
 .gmu-inline-style-14:hover {
-    background: #5B1F1F;
+    background: #940000;
     color: #FFFFFF;
     transform: translateY(-3px) scale(1.02);
-    box-shadow: 0 12px 30px rgba(91, 31, 31, 0.25);
+    box-shadow: 0 12px 30px rgba(148, 0, 0, 0.25);
 }
 
 .gmu-inline-style-82:hover {
-    background: #5B1F1F;
+    background: #940000;
     color: #FFFFFF;
     transform: translateY(-3px) scale(1.02);
-    box-shadow: 0 12px 30px rgba(91, 31, 31, 0.25);
+    box-shadow: 0 12px 30px rgba(148, 0, 0, 0.25);
 }
 
 .gmu-inline-style-101:hover {
-    background: #5B1F1F;
+    background: #940000;
     color: #FFFFFF;
     transform: translateY(-3px) scale(1.02);
-    box-shadow: 0 12px 30px rgba(91, 31, 31, 0.25);
+    box-shadow: 0 12px 30px rgba(148, 0, 0, 0.25);
 }
 
 .gmu-inline-style-117:hover {
-    background: #5B1F1F;
+    background: #940000;
     color: #FFFFFF;
     transform: translateY(-3px) scale(1.02);
-    box-shadow: 0 12px 30px rgba(91, 31, 31, 0.25);
+    box-shadow: 0 12px 30px rgba(148, 0, 0, 0.25);
 }
 
 .gmu-inline-style-127:hover {
-    background: #5B1F1F;
+    background: #940000;
     color: #FFFFFF;
     transform: translateY(-3px) scale(1.02);
-    box-shadow: 0 12px 30px rgba(91, 31, 31, 0.25);
+    box-shadow: 0 12px 30px rgba(148, 0, 0, 0.25);
 }
 
 .gmu-inline-style-159:hover {
-    background: #5B1F1F;
+    background: #940000;
     color: #FFFFFF;
     transform: translateY(-3px) scale(1.02);
-    box-shadow: 0 12px 30px rgba(91, 31, 31, 0.25);
+    box-shadow: 0 12px 30px rgba(148, 0, 0, 0.25);
 }
 
 .gmu-inline-style-163:hover {
-    background: #5B1F1F;
+    background: #940000;
     color: #FFFFFF;
     transform: translateY(-3px) scale(1.02);
-    box-shadow: 0 12px 30px rgba(91, 31, 31, 0.25);
+    box-shadow: 0 12px 30px rgba(148, 0, 0, 0.25);
 }
 
 .hero-btn-secondary:hover {
-    background: #5B1F1F;
+    background: #940000;
     color: #FFFFFF;
     transform: translateY(-3px) scale(1.02);
-    box-shadow: 0 12px 30px rgba(91, 31, 31, 0.25);
+    box-shadow: 0 12px 30px rgba(148, 0, 0, 0.25);
 }
 
 .hero-btn-primary i,
@@ -5101,7 +5101,7 @@ i,
 }
 
 .hero-btn-secondary i {
-    color: #5B1F1F !important;
+    color: #940000 !important;
 }
 
 .hero-btn-secondary:hover i {
